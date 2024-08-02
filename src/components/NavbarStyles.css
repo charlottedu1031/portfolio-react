@@ -3,6 +3,14 @@
 	justify-content: space-between;
 	align-items: center;
 	padding: 1rem;
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+}
+
+.header-bg {
+	background-color: rgba(0, 0, 0, 0.85);
+	transition: 0.5s;
 }
 
 .nav-menu {

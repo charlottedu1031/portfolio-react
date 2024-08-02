@@ -22,3 +22,38 @@
 	left: 0;
 	opacity: 0.6;
 }
+
+.content {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	text-align: center;
+}
+
+.content h1 {
+	font-size: 4rem;
+	padding: 0.6rem 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.content p {
+	font-size: 1.4rem;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.content .btn {
+	margin-right: 0.2rem;
+}
+
+/* TOD: not reflecting? */
+@media screen and (max-width: 640px) {
+	.hero .content h1 {
+		font-size: 4rem;
+	}
+
+	.hero .content p {
+		font-size: 1.4rem;
+	}
+}

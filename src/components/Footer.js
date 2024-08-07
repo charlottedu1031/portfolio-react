@@ -24,7 +24,7 @@ const Footer = () => {
 
 				<div className="right">
 					<h4>About Me</h4>
-					<p>cs student</p>
+					<p>UBC CS student</p>
 					<div className="linkedin">
 						<FaLinkedin size={30} style={{ color: "#fff" }} />
 					</div>
